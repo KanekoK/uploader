@@ -9,9 +9,9 @@
 <body>
 <h1>画像アップローダー</h1>
 <form action="">
-  <input type="file" name="img01">
-  <input type="file" name="img02">
-  <input type="file" name="img03">
+  <label>画像1<input type="file" name="img01"></label>
+  <label>画像2<input type="file" name="img02"></label>
+  <label>画像3<input type="file" name="img03"></label>
   <input type="submit">
 </form>
 </body>
