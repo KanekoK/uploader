@@ -1,0 +1,13 @@
+body {
+  background: #0e0e0e;
+  color: #fff;
+}
+
+body h1 {
+  text-align: center;
+}
+
+body .login_box {
+  width: 680px;
+  margin: 0 auto;
+}

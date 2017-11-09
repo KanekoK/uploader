@@ -1,0 +1,13 @@
+{
+    "name": "kenya/kk",
+    "authors": [
+        {
+            "name": "Kenya",
+            "email": "b1r2d3q4@gmail.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^1.22",
+        "slim/slim": "^3.8"
+    }
+}
