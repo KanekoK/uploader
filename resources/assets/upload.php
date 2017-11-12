@@ -9,17 +9,17 @@ $result = false;
 // 正式保存先ファイルパス
 if ($file_tmp1 != "") {
     $file_save01 = "/Users/kenya/program/uploader/public/uploads/" . $_FILES["img01"]["name"];
-    $result = @move_uploaded_file($file_tmp1, $file_save01);
+    $result = move_uploaded_file($file_tmp1, $file_save01);
     $result_path['img01'] = "/uploads/" . $_FILES["img01"]["name"];
 }
 if ($file_tmp2 != "") {
     $file_save02 = "/Users/kenya/program/uploader/public/uploads/" . $_FILES["img02"]["name"];
-    $result = @move_uploaded_file($file_tmp2, $file_save02);
+    $result = move_uploaded_file($file_tmp2, $file_save02);
     $result_path['img02'] = "/uploads/" . $_FILES["img02"]["name"];
 }
 if ($file_tmp3 != "") {
     $file_save03 = "/Users/kenya/program/uploader/public/uploads/" . $_FILES["img03"]["name"];
-    $result = @move_uploaded_file($file_tmp3, $file_save03);
+    $result = move_uploaded_file($file_tmp3, $file_save03);
     $result_path['img03'] = "/uploads/" . $_FILES["img03"]["name"];
 }
 
